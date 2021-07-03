@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript basico</title>
+</head>
+<body>
+  <h1>Hola mundo</h1>
+  <script>
+    // Codigo
+    const mascotas = ["🐶", "🐱", "🐄"]
+    // alert('Hola usuario')
+    // var nombre = prompt("Escribe tu nombre")
+    var nombre = "Fernando"
+    // console.log("Hola " + nombre)
+    console.log(`Hola ${nombre}`)
+
+    if(nombre == "Fernando"){
+      console.log("eres fernando :p")
+    }else {
+      console.log("No eres fernando :p")
+    }
+
+    for(var i = 0; i < mascotas.length; i++ ){
+      console.log(mascotas[i])
+    }
+
+    var contador = 0;
+
+    while(contador != 5){
+      console.log(contador)
+      contador++;
+    }
+
+    var enemigo = "thanos"
+
+    switch (enemigo) {
+      case "loki":
+        console.log("Lokidrilo 🐊")
+        break;
+
+      default:
+        console.log("Hola")
+        break;
+    }
+
+
+  </script>
+  <!-- <script src="./app.js"></script> -->
+</body>
+</html>
